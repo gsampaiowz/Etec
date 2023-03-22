@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média 3 notas</title>
+    <style>
+        *{
+            background-color: lightsteelblue;
+            font-family: times;
+        }
+
+        form{
+            text-align: center;
+            margin-top: 15%;
+        }
+
+        input{
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <form action="process.php" method="POST">
+        <p><input type="text" name="nome" placeholder="Digite seu nome"></p>
+        <h2>Insira 3 notas e a média delas será calculada:</h1>
+        <p><input type="text" name="nota1" placeholder="Primeira nota"></p>
+        <p><input type="text" name="nota2" placeholder="Segunda nota"></p>
+        <p><input type="text" name="nota3" placeholder="Terceira nota"></p>
+        <p><input type="submit" value="Calcular"></p>
+    </form>
+</body>
+</html>

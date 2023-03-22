@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de dados</title>
+    <style>
+
+        *{
+            background-color: wheat;
+        }
+
+        form{
+            font-family: arial;
+            text-align: center;
+            margin-top: 20%;
+        }
+
+        input[type=text]{
+            width: 25%;
+            padding: 25px 25px;
+            border-radius: 25px;
+        }
+
+        input[type=submit]{
+            width: 10%;
+            padding: 25px 25px;
+            border-radius: 25px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="processa.php" method="GET">
+        <h1>Num1
+            <input type="text" name="num1" placeholder="num1">
+        </h1>
+        <h1>Num2
+            <input type="text" name="num2" placeholder="num2">
+        </h1>
+        <input type="submit" value="somar">
+    </form>
+    
+</body>
+</html>

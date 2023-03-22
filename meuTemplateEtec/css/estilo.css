@@ -1,0 +1,16 @@
+.fundo-nav{
+    background-color: #ffd700;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.d-block{
+    height: 80%;
+    width: 80%;
+}

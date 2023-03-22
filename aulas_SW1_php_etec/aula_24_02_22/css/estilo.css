@@ -1,0 +1,37 @@
+
+h2{
+    background-color: darkblue;
+    color: orange;
+    margin-left: 45%;
+    width: 10%;
+    border-radius: 1em;
+}
+
+h1.title2{
+    color: yellow;
+    border-radius: 1em;
+}
+
+h1.title{
+    color: purple;
+    background-color: yellow;
+    margin-left: 45%;
+    width: 10%;
+    border-radius: 1em;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+*{
+    background-color: rgb(29, 29, 29);
+}
+
+hr{
+    border-color: rgb(9, 223, 212);
+}

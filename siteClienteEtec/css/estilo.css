@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+.navbar-dark .navbar-brand{
+  color: rgb(255, 13, 255);
+}
+.navbar-dark .navbar-brand:hover{
+  color: yellow;
+}
+
+.navbar-dark .navbar-toggler{
+  border-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+  color: rgb(255, 13, 255);
+  
+}
+
+.navbar-dark .navbar-nav .nav-link.active:hover{
+  color: yellow;
+}
+
+.hr{
+  border: 3px solid black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: black -2px 2px;
+}
+
+h2,p{
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.titulo {
+  width: 50%;
+  margin-left: 25%;
+}
+
+*{
+  font-family: "Ubuntu", sans-serif;
+}
+
+.fundo{
+  background-color: #370080;
+}
+
+img.wave{
+  width: 100%;
+}
+
+nav{
+  font-size: large;
+  letter-spacing: 1px;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+
+section.black{
+  background-color: black;
+}
+section.purple{
+  background-color: #370080;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+img.fotos{
+  margin-bottom: 10%;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20%;
+  margin-top: 10%;
+}
+
+.col-lg{
+  align-self: center;
+}
+
+footer{
+  padding: 5%;
+  text-align: center;
+  background-color: black;
+}
+
+h5{
+  color: rgb(234, 0, 255);
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+
+body{
+    background-image: linear-gradient(to right, blue , purple);
+}
+
+.card{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: white;
+}
+
+.titulo{
+    margin-top: 0.5em;
+    text-align: center;
+    color: white;
+}
+

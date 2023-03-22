@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01</title>
+    <style>
+        body{
+            color: aliceblue;
+            background-color: royalblue;
+            text-align: center;
+            margin-top: 250px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        input{
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <form action="processa.php" method="GET">
+        <input type="number" name="temp" placeholder="Temperatura">
+        <input type="button" value="Celsius para Farenheit" onclick="a()">  
+        <input type="button" value="Farenheit para Celsius" onclick="b()">
+    </form>
+    
+</body>
+</html>
+
